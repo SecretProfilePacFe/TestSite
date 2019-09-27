@@ -1,1 +1,22 @@
-{}
+{
+  "name": "fitess",
+  "version": "1.0.0",
+  "description": "test website",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SecretProfilePacFe/TestSite.git"
+  },
+  "author": "paco-fe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SecretProfilePacFe/TestSite/issues"
+  },
+  "homepage": "https://github.com/SecretProfilePacFe/TestSite#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
